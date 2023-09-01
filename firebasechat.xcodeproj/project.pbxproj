@@ -20,7 +20,8 @@
 		555B7D722AA03EB100795B44 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B7D712AA03EB100795B44 /* NewConversationViewController.swift */; };
 		555B7D742AA03EBA00795B44 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B7D732AA03EBA00795B44 /* ProfileViewController.swift */; };
 		555B7D772AA0467400795B44 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B7D762AA0467400795B44 /* Extensions.swift */; };
-		555B7D792AA065F500795B44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 555B7D782AA065F400795B44 /* GoogleService-Info.plist */; };
+		55D963C12AA18F95007F7D9C /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D963C02AA18F95007F7D9C /* DatabaseManager.swift */; };
+		55D963C32AA1914F007F7D9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55D963C22AA1914F007F7D9C /* GoogleService-Info.plist */; };
 		F8123FB5766283FC9207F7FB /* Pods_firebasechat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8001CF35F70E9AA050B3C7 /* Pods_firebasechat.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +42,8 @@
 		555B7D712AA03EB100795B44 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		555B7D732AA03EBA00795B44 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		555B7D762AA0467400795B44 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		555B7D782AA065F400795B44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55D963C02AA18F95007F7D9C /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		55D963C22AA1914F007F7D9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5D8001CF35F70E9AA050B3C7 /* Pods_firebasechat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebasechat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DA4622701FCFABBC4621D9 /* Pods-firebasechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasechat.debug.xcconfig"; path = "Target Support Files/Pods-firebasechat/Pods-firebasechat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,7 +98,7 @@
 		550405062A9A402000CE3000 /* firebasechat */ = {
 			isa = PBXGroup;
 			children = (
-				555B7D782AA065F400795B44 /* GoogleService-Info.plist */,
+				55D963C22AA1914F007F7D9C /* GoogleService-Info.plist */,
 				555B7D672AA03B8A00795B44 /* Resources */,
 				555B7D652AA03B7900795B44 /* ViewModels */,
 				555B7D642AA03B7600795B44 /* Models */,
@@ -149,6 +151,7 @@
 				550405072A9A402000CE3000 /* AppDelegate.swift */,
 				550405092A9A402000CE3000 /* SceneDelegate.swift */,
 				555B7D762AA0467400795B44 /* Extensions.swift */,
+				55D963C02AA18F95007F7D9C /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -232,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				550405142A9A402100CE3000 /* LaunchScreen.storyboard in Resources */,
-				555B7D792AA065F500795B44 /* GoogleService-Info.plist in Resources */,
+				55D963C32AA1914F007F7D9C /* GoogleService-Info.plist in Resources */,
 				550405112A9A402100CE3000 /* Assets.xcassets in Resources */,
 				5504050F2A9A402000CE3000 /* Main.storyboard in Resources */,
 			);
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				555B7D6E2AA03E9200795B44 /* PhotoViewViewController.swift in Sources */,
+				55D963C12AA18F95007F7D9C /* DatabaseManager.swift in Sources */,
 				555B7D6A2AA03E6500795B44 /* LoginViewController.swift in Sources */,
 				555B7D722AA03EB100795B44 /* NewConversationViewController.swift in Sources */,
 				555B7D6C2AA03E7B00795B44 /* RegisterViewController.swift in Sources */,
